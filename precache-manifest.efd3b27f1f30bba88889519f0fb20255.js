@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8f1189ca1ff9a6847c37413a5d2e35a7",
+    "revision": "d3c78c132b1e24b0ea02d2f7861555e6",
     "url": "/ChoDesertOnlineSite/index.html"
   },
   {
-    "revision": "3fd994a274c4aef18290",
+    "revision": "e8b8b5d4819241783572",
     "url": "/ChoDesertOnlineSite/static/css/main.e1097edc.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ChoDesertOnlineSite/static/js/2.65aa1cca.chunk.js"
   },
   {
-    "revision": "3fd994a274c4aef18290",
-    "url": "/ChoDesertOnlineSite/static/js/main.df7b9c74.chunk.js"
+    "revision": "e8b8b5d4819241783572",
+    "url": "/ChoDesertOnlineSite/static/js/main.2ed46b5b.chunk.js"
   },
   {
     "revision": "bd507c832c453515bc07",

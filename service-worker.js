@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ChoDesertOnlineSite/precache-manifest.789a91d0be657eda9ddf165a0db96266.js"
+  "/ChoDesertOnlineSite/precache-manifest.efd3b27f1f30bba88889519f0fb20255.js"
 );
 
 self.addEventListener('message', (event) => {
