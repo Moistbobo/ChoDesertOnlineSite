@@ -16,6 +16,7 @@ const MainPage = props => {
     return (
         <div className='container'>
             <div className='MainPage'>
+                <h1 style={{textAlign:'center', background:'rgba(255,255,255,0.4)'}}>CHO DESERT ONLINE</h1>
                 {postContents}
             </div>
             <div className='SideBar'>

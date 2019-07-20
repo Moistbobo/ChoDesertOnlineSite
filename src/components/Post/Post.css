@@ -1,15 +1,46 @@
 .PostCard {
     text-align: center;
+    padding:50px;
 }
 
 .PostCardBody {
     margin-bottom: 10px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     border: 1px solid #eee;
     border-radius: 5px;
     box-shadow: 0 1px 1px #eeeeee;
+    padding:50px;
+
 }
 
-h1{
+mark{
+    color: darkslateblue;
+    background-color: transparent;
+}
+
+h1 {
     color: darkslategrey;
+}
+
+h2 {
+    color: darkslategray;
+    text-align: left;
+}
+
+p {
+    text-align: left;
+    padding: 15px;
+}
+
+img {
+    max-height: 400px;
+    max-width: 400px;
+    display: block;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*margin-top: 20px;*/
+    /*margin-bottom: 20px;*/
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin: 20px auto 20px auto;
 }

@@ -13,7 +13,7 @@ class DamageCalculator extends Component {
         }
     }
 
-    strChangedHandler = (e) =>{
+    strChangedHandler = (e) => {
         const value = parseFloat(e.target.value);
 
         this.setState({
@@ -21,7 +21,7 @@ class DamageCalculator extends Component {
         });
     };
 
-    equipmentChangedHandler = (e) =>{
+    equipmentChangedHandler = (e) => {
         const value = parseFloat(e.target.value);
 
         this.setState({
@@ -29,7 +29,7 @@ class DamageCalculator extends Component {
         });
     };
 
-    balChangedHandler = (e) =>{
+    balChangedHandler = (e) => {
         const value = parseFloat(e.target.value);
 
         this.setState({
@@ -37,7 +37,7 @@ class DamageCalculator extends Component {
         });
     };
 
-    calculateMaxDamage = () =>{
+    calculateMaxDamage = () => {
         console.log('calculating damage');
         const equip = this.state.equipment;
         const str = this.state.str;
@@ -49,19 +49,19 @@ class DamageCalculator extends Component {
     };
 
     render() {
-        const damage = (this.state.str && this.state.equipment)? `Max Damage: ${this.calculateMaxDamage()}`: ''
+        const damage = (this.state.str && this.state.equipment) ? `Max Damage: ${this.calculateMaxDamage()}` : ''
         return (
             <div
-            className={'DamageCalculator'}>
+                className={'DamageCalculator'}>
                 <h1
-                style={{textAlign:'center'}}>Damage calculator</h1>
+                    style={{textAlign: 'center'}}>Damage calculator</h1>
                 <div style={{
                     display: 'flex',
-                    flexDirection:'column'
+                    flexDirection: 'column'
                 }}>
 
-                  <InputComponent name={'STR:'}
-                                  onChange={this.strChangedHandler}/>
+                    <InputComponent name={'STR:'}
+                                    onChange={this.strChangedHandler}/>
 
                     <InputComponent name={'EQUIP:'}
                                     onChange={this.equipmentChangedHandler}/>
@@ -71,7 +71,7 @@ class DamageCalculator extends Component {
                 </div>
 
 
-                <p style={{textAlign:'center'}}>{damage}</p>
+                <p style={{textAlign: 'center'}}>{damage}</p>
             </div>
         )
     }
