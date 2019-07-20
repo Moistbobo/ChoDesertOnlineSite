@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    margin: auto;
+}
+
+.MainPage{
+    padding: 16px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width:60%;
+    flex:0.8;
+    flex-direction: column;
+}
+
+.SideBar{
+    flex: 0.2;
+    padding: 16px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
