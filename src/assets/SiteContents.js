@@ -22,7 +22,7 @@ in channels that have item drops enabled or from defeating monsters in dungeon m
 <img src="https://i.imgur.com/iWuNrDu.png"/>
 </br>
 Additionally, weapons can be equipped by using the <mark>.equip [weaponIndex]</mark> and <mark>.unequipweapon</mark> commands.</br></br>
-While weapons can be obtained as drops, stronger weapons will require crafting. To check the available craftin recipes and the required mats, use the <mark>.craftrecipes</mark> command. To craft an item, use the <mark>.craft [recipeIndex]</mark> command;
+While weapons can be obtained as drops, stronger weapons will require crafting. To check the available craftin recipes and the required mats, use the <mark>.craftrecipes</mark> or <mark>.cr</mark> command. To craft an item, use the <mark>.craft [recipeIndex]</mark> command;
 </br><img src="https://i.imgur.com/zP8QLap.png"/></br>
 </p>
 <h2>QOL Changes</h2>
