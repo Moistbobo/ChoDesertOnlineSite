@@ -48,7 +48,7 @@ class DamageCalculator extends Component {
 
     calculateMaxDamage = () => {
         console.log('calculating damage');
-        const equip = this.state.equipment;
+        const equip = this.state.equipment + 10;
         const str = this.state.str;
 
         const baseConstant = 5;
