@@ -3,11 +3,11 @@ const SiteContents = [
       title :"July 20 2019 Hotfixes",
       date: "July 20 2019",
       contents :`
-<h1>Hotfixes</h1>
+<h2>Hotfixes</h2>
 <p>A quick hotfix and update has been applied to the game.</p>
 <p>Strength now has a hardcap of 18. This is to prevent people from getting too strong too quickly while the levelling system is being revamped.</p>
 <p>Various string fixes and QOL fixes such as RPG commands working in non-rpg channels has also been applied.</p>
-<h1>Future plans</h1>
+<h2>Future plans</h2>
 <p>There are plans to revamp the levelling system so that it uses a EXP - Level with assignable skill points. There will also be expansions to the dungeon system, such as a floor system and additional monsters. Consumables are also in the works.</p>
 The team at Cho Abyss would like to thank you all for your on going support. We swear to never make the game P2W!`
     },
