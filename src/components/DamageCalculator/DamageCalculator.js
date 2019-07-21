@@ -10,6 +10,7 @@ class DamageCalculator extends Component {
             str: null,
             equipment: null,
             bal: null,
+            critMult: null
         }
     }
 
@@ -26,6 +27,14 @@ class DamageCalculator extends Component {
 
         this.setState({
             equipment: value
+        });
+    };
+
+    critMultChangedHandler = (e) => {
+        const value = parseFloat(e.target.value);
+
+        this.setState({
+            critMult: value
         });
     };
 
@@ -48,8 +57,13 @@ class DamageCalculator extends Component {
         return Math.floor(baseConstant * (Math.log(equip * str) / Math.log(baseLog)));
     };
 
+    calculateCritDamage = () => {
+        return Math.floor(this.calculateMaxDamage() * this.state.critMult);
+    };
+
     render() {
-        const damage = (this.state.str && this.state.equipment) ? `Max Damage: ${this.calculateMaxDamage()}` : ''
+        const damage = (this.state.str && this.state.equipment) ? `Max Damage: ${this.calculateMaxDamage()}` : '';
+        const critDamage = (this.state.str && this.state.equipment && this.state.critMult) ? `Max Crit Damage: ${this.calculateCritDamage()}` : '';
         return (
             <div
                 className={'DamageCalculator'}>
@@ -66,12 +80,16 @@ class DamageCalculator extends Component {
                     <InputComponent name={'EQUIP:'}
                                     onChange={this.equipmentChangedHandler}/>
 
+                    <InputComponent name={'CRIT MULT:'}
+                                    onChange={this.critMultChangedHandler}/>
+
                     {/*<InputComponent name={'BAL:'}*/}
                     {/*                onChange={this.balChangedHandler}/>*/}
                 </div>
 
 
                 <p style={{textAlign: 'center'}}>{damage}</p>
+                <p style={{textAlign: 'center'}}>{critDamage}</p>
             </div>
         )
     }
