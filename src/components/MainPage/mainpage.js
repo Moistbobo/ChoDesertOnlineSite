@@ -3,6 +3,7 @@ import './mainpage.css';
 import Post from "../Post/Post";
 import SiteContents from '../../assets/SiteContents';
 import DamageCalculator from "../DamageCalculator/DamageCalculator";
+import MessageBox from "../MessageBox/MessageBox";
 
 const MainPage = props => {
 
@@ -21,6 +22,7 @@ const MainPage = props => {
             </div>
             <div className='SideBar'>
                 <DamageCalculator/>
+                <MessageBox/>
             </div>
         </div>
 
