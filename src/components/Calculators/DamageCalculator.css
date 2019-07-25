@@ -5,6 +5,9 @@
     border: 1px solid #eee;
     border-radius: 5px;
     box-shadow: 0 1px 1px #eeeeee;
+    display:flex;
+    flex-direction: column;
+    flex:0.3;
 }
 
 /*input[type="number"] {*/

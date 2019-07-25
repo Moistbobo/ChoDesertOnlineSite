@@ -5,6 +5,7 @@ import SiteContents from '../../assets/SiteContents';
 import DamageCalculator from "../Calculators/DamageCalculator";
 import MessageBox from "../MessageBox/MessageBox";
 import HealCalculator from "../Calculators/HealCalculator";
+import Sticky from 'react-stickynode';
 
 const MainPage = props => {
 
@@ -18,13 +19,15 @@ const MainPage = props => {
     return (
         <div className='container'>
             <div className='MainPage'>
-                <h1 style={{textAlign:'center', background:'rgba(255,255,255,0.4)'}}>CHO DESERT ONLINE</h1>
+                <h1 style={{textAlign: 'center', background: 'rgba(255,255,255,0.4)'}}>CHO DESERT ONLINE</h1>
                 {postContents}
             </div>
             <div className='SideBar'>
                 <DamageCalculator/>
                 <HealCalculator/>
-                <MessageBox/>
+                <Sticky>
+                    <MessageBox/>
+                </Sticky>
             </div>
         </div>
 
