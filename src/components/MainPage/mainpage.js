@@ -2,8 +2,9 @@ import React from 'react';
 import './mainpage.css';
 import Post from "../Post/Post";
 import SiteContents from '../../assets/SiteContents';
-import DamageCalculator from "../DamageCalculator/DamageCalculator";
+import DamageCalculator from "../Calculators/DamageCalculator";
 import MessageBox from "../MessageBox/MessageBox";
+import HealCalculator from "../Calculators/HealCalculator";
 
 const MainPage = props => {
 
@@ -22,6 +23,7 @@ const MainPage = props => {
             </div>
             <div className='SideBar'>
                 <DamageCalculator/>
+                <HealCalculator/>
                 <MessageBox/>
             </div>
         </div>
