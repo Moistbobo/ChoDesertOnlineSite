@@ -9,7 +9,7 @@
     border: 1px solid #eee;
     border-radius: 5px;
     box-shadow: 0 1px 1px #eeeeee;
-    padding: 50px;
+    padding: 40px;
 
 }
 
@@ -36,7 +36,10 @@ p {
 img {
     max-height: 400px;
     max-width: 400px;
+    min-width:100px;
     display: block;
+    width:100%;
+    height:auto;
     /*margin-left: auto;*/
     /*margin-right: auto;*/
     /*margin-top: 20px;*/
