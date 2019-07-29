@@ -1,14 +1,30 @@
 const SiteContents = [
-    {
-        title: "Dungeon Floor 2 Updates",
-        date: "July 26 2019",
-        contents: `<p>Dungeon floor 2 has been added to Cho Desert Online. Explore the dungeon and fight new monsters to grind new gear.!</p>
-<p>This post is still under construction.</p>`
-    },
-    {
-        title: "July 20 2019 Hotfixes",
-        date: "July 20 2019",
-        contents: `
+	{
+		title: "Dungeon Floor 2 Updates",
+		date: "July 26 2019",
+		contents: `<h2>Dungeon Floor 2</h2>
+<p>New monsters have await you in the dungeons of Cho Desert Online! Explore the new dungeon floor and obtain all new equipment</p>
+<h2>New leveling system</h2>
+<p>The old strength based leveling system has been replaced in favor of a more traditional EXP curve system! Players can not obtain skills points which can be allocated into <mark>Strength, Intelligence, or HP</mark>.</p>
+<h2>Combat and Status UI overhaul</h2>
+<p>The combat and status UI has been revamped to display more relevant information in an easy to read format.</p>
+<h2>Consumables</h2>
+<p>Consumables has been added to the game, in the form of healing potions. Players will have to gather the required materials and craft these new items in order to use them.</p>
+<h2>QOL Changes</h2>
+<ul>
+<li>Confirm before crafting has been added</li>
+<li>Confirm before discarding items has been added</li>
+<li>Multi-discard has been added</li>
+<li>Multi-crafting has been added</li>
+<li>The abilty to heal other players has been added</li>
+</ul>
+The team at Cho Abyss would like to thank you all for your on going support. We swear to never make the game P2W!
+`
+	},
+	{
+		title: "July 20 2019 Hotfixes",
+		date: "July 20 2019",
+		contents: `
 <h2>Hotfixes</h2>
 <p>A quick hotfix and update has been applied to the game.</p>
 <p>Strength now has a hardcap of 18. This is to prevent people from getting too strong too quickly while the levelling system is being revamped.</p>
@@ -16,11 +32,11 @@ const SiteContents = [
 <h2>Future plans</h2>
 <p>There are plans to revamp the levelling system so that it uses a EXP - Level with assignable skill points. There will also be expansions to the dungeon system, such as a floor system and additional monsters. Consumables are also in the works.</p>
 The team at Cho Abyss would like to thank you all for your on going support. We swear to never make the game P2W!`
-    },
-    {
-        title: "PVE and Equipment system update",
-        date: "July 20 2019",
-        contents: `<p>This is a large update that brings an inventory and equipment system, a pve system, 
+	},
+	{
+		title: "PVE and Equipment system update",
+		date: "July 20 2019",
+		contents: `<p>This is a large update that brings an inventory and equipment system, a pve system, 
         Dungeon PVE system, and various QOL changes</p></br>
 <h2>Dungeon Mode</h2>
 <p>This update brings an all new Dungeon Mode to Cho Desert Online!</br>
@@ -55,7 +71,7 @@ The team at Cho Abyss would like to thank you all for your on going support. We 
 
 
 `
-    }
+	}
 ];
 
 export default SiteContents;

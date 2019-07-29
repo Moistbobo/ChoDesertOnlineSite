@@ -13,6 +13,12 @@
 
 }
 
+.Date{
+    bottom: 10px;
+    right:10px;
+    color: black;
+}
+
 mark {
     color: darkslateblue;
     background-color: transparent;
@@ -47,4 +53,8 @@ img {
     border-radius: 5px;
     border: 2px solid #000;
     margin: 20px auto 20px auto;
+}
+
+li{
+    text-align:left;
 }

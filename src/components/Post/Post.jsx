@@ -5,7 +5,10 @@ const Post = props => {
     return (
         <div
         className={"PostCard"}>
-            <h1 className={"PostCardBody"}>{props.title}</h1>
+            <div
+            className={"PostCardBody"}>
+                <h1>{props.title}</h1>
+            </div>
             <div
             className={"PostCardBody"}>
                 {props.children}
