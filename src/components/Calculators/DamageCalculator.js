@@ -54,7 +54,7 @@ class DamageCalculator extends Component {
         const baseConstant = 5;
         const baseLog = 1.5;
 
-        return Math.floor(baseConstant * (Math.log(equip * str) / Math.log(baseLog)));
+        return Math.floor((baseConstant * (Math.log(equip * str) / Math.log(baseLog))+ (Math.sqrt(equip))));
     };
 
     calculateCritDamage = () => {

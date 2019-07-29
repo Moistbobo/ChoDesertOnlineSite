@@ -1,8 +1,14 @@
 const SiteContents = [
     {
-      title :"July 20 2019 Hotfixes",
-      date: "July 20 2019",
-      contents :`
+        title: "Dungeon Floor 2 Updates",
+        date: "July 26 2019",
+        contents: `<p>Dungeon floor 2 has been added to Cho Desert Online. Explore the dungeon and fight new monsters to grind new gear.!</p>
+<p>This post is still under construction.</p>`
+    },
+    {
+        title: "July 20 2019 Hotfixes",
+        date: "July 20 2019",
+        contents: `
 <h2>Hotfixes</h2>
 <p>A quick hotfix and update has been applied to the game.</p>
 <p>Strength now has a hardcap of 18. This is to prevent people from getting too strong too quickly while the levelling system is being revamped.</p>
